@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AnimatedCirclesDemo (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "AnimatedCirclesDemo (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
