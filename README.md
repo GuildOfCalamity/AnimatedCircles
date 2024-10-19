@@ -37,7 +37,7 @@
 	- GradientColorOne (Color)
 		- The first color for the gradient.
 	- GradientColorTwo (Color)
-		- The seconds color for the gradient.
+		- The second color for the gradient.
 	- ScaleFactor (double)
 		- How much to grow/shrink the circles.
 	- IsRunning (bool)
