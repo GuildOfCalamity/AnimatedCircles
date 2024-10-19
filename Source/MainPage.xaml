@@ -82,13 +82,15 @@
         <Grid
             x:Name="animGrid"
             Grid.Row="1"
+            MinWidth="200"
+            MinHeight="60"
             HorizontalAlignment="Center"
             VerticalAlignment="Center">
             <local:AnimatedCirclesControl
                 x:Name="circles"
                 AnimationDuration="0.7"
                 AnimationFrequency="0.1"
-                CircleSize="30"
+                CircleSize="20"
                 GradientColorOne="#00408F"
                 GradientColorTwo="#E0E0FF"
                 IsRunning="False"
