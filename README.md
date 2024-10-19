@@ -15,3 +15,35 @@
 - This is a reusable control that can be added to any **WinUI3** project.
 
 ![Icon](Source/Assets/Screenshot.png)
+
+## Usage
+	
+	<AnimatedCirclesControl
+	    AnimationDuration="0.7"
+	    AnimationFrequency="0.1"
+	    CircleSize="20"
+	    GradientColorOne="#00408F"
+	    GradientColorTwo="#E0E0FF"
+	    IsRunning="{x:Bind ViewModel.Busy, Mode=OneWay}"
+	    ScaleFactor="1.5"
+	    UseRadialGradient="False" />
+	
+	- CircleSize (double)
+		- Size in pixels of the circles.
+	- AnimationDuration (double)
+		- Time in seconds of the animation.
+	- AnimationFrequency (double)
+		- Time in seconds for the period of the animation.
+	- GradientColorOne (Color)
+		- The first color for the gradient.
+	- GradientColorTwo (Color)
+		- The seconds color for the gradient.
+	- ScaleFactor (double)
+		- How much to grow/shrink the circles.
+	- IsRunning (bool)
+		- True starts the animation, False stops the animation.
+	- UseRadialGradient (bool)
+		- If true then a RadialGradientBrush is used, if false a LinerGradientBrush is used.
+		- If you don't want any gradient effect then set ColorOne and ColorTwo to the same value.
+		
+	
