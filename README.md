@@ -16,7 +16,7 @@
 
 ![Icon](Source/Assets/Screenshot.png)
 
-## Usage
+## Usage (XAML)
 	
 	<AnimatedCirclesControl
 	    AnimationDuration="0.7"
@@ -28,6 +28,7 @@
 	    ScaleFactor="1.5"
 	    UseRadialGradient="False" />
 	
+	<!-- 
 	- CircleSize (double)
 		- Size in pixels of the circles.
 	- AnimationDuration (double)
@@ -45,5 +46,6 @@
 	- UseRadialGradient (bool)
 		- If true then a RadialGradientBrush is used, if false a LinerGradientBrush is used.
 		- If you don't want any gradient effect then set ColorOne and ColorTwo to the same value.
+	-->
 		
 	
