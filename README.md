@@ -14,7 +14,9 @@
 - I see this animaton everywhere on the interwebs these days so I figured I'd regenerate it using **WinUI3**.
 - This is a reusable [UserControl](https://learn.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.usercontrol?view=winrt-26100) that can be added to any **WinUI3** project.
 
-![Icon](Source/Assets/Screenshot.png)
+![Sample](Source/Assets/Screenshot.png)
+
+![Example](Source/Assets/Animation.gif)
 
 ## Usage (XAML)
 	
